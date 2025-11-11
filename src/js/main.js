@@ -116,6 +116,8 @@ gsap.to(
     }
 );
 
+// THUNDER------------------------------------------
+
 gsap.from(".parallax-thunder-right",{
 scrollTrigger: {
     trigger:".thunders",
@@ -140,5 +142,20 @@ scrollTrigger: {
 opacity: 0,
 left: "-80vw",
 top:"-400px",
+});
+
+// HORIZONTAL SCROLL-----------------------------------
+
+gsap.to(".slider-track", {
+    scrollTrigger: {
+        trigger: ".slider-track",
+        start:"top top",
+        end:"+=300%",
+        pin: true,
+        scrub: true,
+        x:"-75%",
+        markers:true,
+        // ease:"sine.inOut",
+    }
 });
 
