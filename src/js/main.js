@@ -27,7 +27,7 @@ gsap.to(
             end:"bottom 40%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -41,7 +41,7 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -55,7 +55,7 @@ gsap.to(
             end:"bottom 60%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -69,7 +69,7 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -83,7 +83,7 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -97,7 +97,7 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -111,7 +111,34 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
+
+gsap.from(".parallax-thunder-right",{
+scrollTrigger: {
+    trigger:".thunders",
+    start:"40px top",
+    end:"110px top",
+    scrub: 1,
+    markers: true,
+},
+opacity: 0,
+left: "80vw",
+top:"-300px",
+});
+
+gsap.from(".parallax-thunder-left",{
+scrollTrigger: {
+    trigger:".thunders",
+    start:"40px top",
+    end:"110px top",
+    scrub: 1,
+    markers: true,
+},
+opacity: 0,
+left: "-80vw",
+top:"-400px",
+});
+
