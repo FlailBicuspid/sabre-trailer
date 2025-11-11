@@ -34,10 +34,10 @@ gsap.to(
 gsap.to(
     ".screen-c img",
     {
-        y: "-60px",
+        y: "-65px",
         scrollTrigger: {
             trigger: ".screen-c",
-            start: "top 90%",
+            start: "top 80%",
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
@@ -48,11 +48,11 @@ gsap.to(
 gsap.to(
     ".screen-d img",
     {
-        y: "-300px",
+        y: "-100px",
         scrollTrigger: {
             trigger: ".screen-d",
-            start: "top 80%",
-            end:"bottom 80%",
+            start: "top 110%",
+            end:"bottom 60%",
             scrub: 0.3,
             // pin: true,
             markers: true,
@@ -62,10 +62,10 @@ gsap.to(
 gsap.to(
     ".screen-e img",
     {
-        y: "-1900px",
+        y: "-170px",
         scrollTrigger: {
             trigger: ".screen-e",
-            start: "top 80%",
+            start: "top 115%",
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
@@ -76,10 +76,10 @@ gsap.to(
 gsap.to(
     ".screen-f img",
     {
-        y: "-3000px",
+        y: "-200px",
         scrollTrigger: {
             trigger: ".screen-f",
-            start: "top 80%",
+            start: "top 180%",
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
@@ -87,4 +87,31 @@ gsap.to(
         },
     }
 );
-
+gsap.to(
+    ".screen-g img",
+    {
+        y: "-240px",
+        scrollTrigger: {
+            trigger: ".screen-g",
+            start: "top 100%",
+            end:"bottom 80%",
+            scrub: 0.3,
+            // pin: true,
+            markers: true,
+        },
+    }
+);
+gsap.to(
+    ".screen-h img",
+    {
+        y: "-280px",
+        scrollTrigger: {
+            trigger: ".screen-h",
+            start: "top 270%",
+            end:"bottom 80%",
+            scrub: 0.3,
+            // pin: true,
+            markers: true,
+        },
+    }
+);
