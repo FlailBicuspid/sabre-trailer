@@ -1,26 +1,53 @@
+button.to-shop-section,
+button.shop-button {
+  //   style
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.46);
+  backdrop-filter: blur(3.6500000953674316px);
+  //   font
+  font-family: "Novel Sans Pro";
+  font-style: normal;
+  font-weight: 500;
+  //   transition
+  transition: color 0.2s ease-in-out, background-image 0.2s 0.5s ease-in-out;
+}
+
 button.to-shop-section {
+  font-size: 20px;
+  padding: 8px 12px;
   // position
   position: fixed;
   z-index: 3;
   margin-right: 30px;
   margin-top: 60px;
-  //   style
-  display: inline-flex;
-  padding: 8px 12px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 9px;
   border: none;
-  background: rgba(255, 255, 255, 0.46);
-  backdrop-filter: blur(3.6500000953674316px);
-  //   font
-  font-family: "Novel Sans Pro";
-  font-size: 20px;
-  font-style: normal;
+}
+
+button.shop-button {
+  border-radius: 9px;
+  border: 3px solid var(--Button-test-gradient, #c7b3ce);
+  background: rgba(255, 255, 255, 0.66);
+  backdrop-filter: blur(15.050000190734863px);
+  padding: 20px 35px;
+  width: 246px;
+  font-size: 29px;
   font-weight: 500;
-  //   transition
-  transition: color 0.2s ease-in-out, background-image 0.2s 0.5s ease-in-out;
+}
+
+.shop-button:hover {
+  color: white;
+  border: none;
+  border-radius: 9px;
+  background: linear-gradient(
+    293deg,
+    rgba(199, 179, 206, 0.66) 20.64%,
+    rgba(191, 205, 213, 0.66) 85.29%
+  );
+  backdrop-filter: blur(15.050000190734863px);
 }
 
 .to-shop-section:hover {

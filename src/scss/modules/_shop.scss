@@ -1,12 +1,114 @@
 .shop-section {
   width: 100vw;
+  position: relative;
+}
+
+.shop-product {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  position: relative;
+  padding-top: 10%;
+}
+
+.shop-visual {
+  width: 50%;
+  height: auto;
+}
+
+.shop-visual img {
+  width: 100%;
+  height: auto;
+}
+
+.shop-product-text {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  width: 40%;
+}
+
+.shop-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.shop-product-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.info-format,
+.info-pages,
+.info-ean {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .shop-background {
+  top: 0%;
+
+  position: absolute;
   overflow: hidden;
   width: 100%;
 }
 
 .shop-background img {
   width: 110%;
+}
+
+.shop-product-author {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+// Font
+
+.shop-product-author p {
+  font-family: "Novel Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 122.923%; /* 19.668px */
+}
+
+.shop-product-author h1 {
+  color: #000;
+  font-family: Capitol;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 101.57%; /* 44.691px */
+}
+
+.shop-text-intro {
+  color: #000;
+  font-family: "Novel Sans Pro";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shop-product-info h2 {
+  color: #000;
+  font-family: "Novel Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 122.923%; /* 24.585px */
+}
+
+.shop-product-info p {
+  color: #000;
+  font-family: "Novel Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 122.923%; /* 19.668px */
 }
