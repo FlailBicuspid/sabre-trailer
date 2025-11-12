@@ -1,7 +1,7 @@
 .falling-sabre-section {
   width: 100vw;
   //   height: 100vh;
-  background-color: green;
+  //   background-color: green;
   position: relative;
   overflow: hidden;
 }
@@ -24,4 +24,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 80px;
+}
+
+// img size
+.falling-img img {
+  width: 100%;
+}
+
+.falling-1 {
+  width: 100%;
+}
+
+.falling-2 {
+  width: 100%;
+}
+
+.falling-3 {
+  width: 50%;
+}
+
+.falling-6 {
+  width: 90%;
+}
+
+.falling-7 {
+  width: 90%;
+}
+
+.falling-10 {
+  width: 90%;
 }

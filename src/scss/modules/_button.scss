@@ -1,6 +1,7 @@
-button.to-shop-section,
-button.shop-button {
+.button.to-shop-section,
+.button.shop-button {
   //   style
+
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +17,11 @@ button.shop-button {
   transition: color 0.2s ease-in-out, background-image 0.2s 0.5s ease-in-out;
 }
 
-button.to-shop-section {
+a.button {
+  text-decoration: none;
+}
+
+.button.to-shop-section {
   font-size: 20px;
   padding: 8px 12px;
   // position
@@ -27,7 +32,7 @@ button.to-shop-section {
   border: none;
 }
 
-button.shop-button {
+.button.shop-button {
   border-radius: 9px;
   border: 3px solid var(--Button-test-gradient, #c7b3ce);
   background: rgba(255, 255, 255, 0.66);
@@ -56,4 +61,8 @@ button.shop-button {
     linear-gradient(272deg, #bc63da 0%, #dd533d 96.12%)
   );
   color: #fff;
+}
+
+.to-shop-section.hidden {
+  display: none;
 }

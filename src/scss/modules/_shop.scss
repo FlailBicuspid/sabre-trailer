@@ -1,6 +1,7 @@
 .shop-section {
   width: 100vw;
   position: relative;
+  //   overflow: hidden;
 }
 
 .shop-product {
@@ -51,14 +52,13 @@
 
 .shop-background {
   top: 0%;
-
   position: absolute;
   overflow: hidden;
   width: 100%;
 }
 
 .shop-background img {
-  width: 110%;
+  width: 100%;
 }
 
 .shop-product-author {

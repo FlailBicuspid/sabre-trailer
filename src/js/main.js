@@ -124,7 +124,7 @@ scrollTrigger: {
     start:"40px top",
     end:"110px top",
     scrub: 1,
-    markers: true,
+    // markers: true,
 },
 opacity: 0,
 left: "80vw",
@@ -137,7 +137,7 @@ scrollTrigger: {
     start:"40px top",
     end:"110px top",
     scrub: 1,
-    markers: true,
+    // markers: true,
 },
 opacity: 0,
 left: "-80vw",
@@ -154,7 +154,7 @@ gsap.to(".slider-track", {
         end:"+=1000%",
         pin: true,
         scrub: true,
-        markers:true,
+        // markers:true,
         // ease:"sine.inOut",
     }
 });
@@ -179,7 +179,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: ".falling-sabre-section",
-      start: "top top",
+      start: "-20% top",
       
       end: "110% bottom",
       scrub: 0.3, 
@@ -187,6 +187,9 @@ gsap
       markers: true,
       ease: "linear", 
     },
+    onStart: () => {
+        document.querySelector(".to-shop-section").classList.add("hidden");
+    }
   })
   
   .to(

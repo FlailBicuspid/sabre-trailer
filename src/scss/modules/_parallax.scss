@@ -64,6 +64,11 @@
   // overflow: hidden;
 }
 
+.section-parallax,
+.falling-sabre-section {
+  overflow: hidden;
+}
+
 .parallax-into-paysage.screen-h {
   position: relative;
   z-index: 2;
