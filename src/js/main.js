@@ -195,7 +195,6 @@ gsap
   .to(
     ".falling-sabre",
     {
-     
       top: "25%",
     },
     0
@@ -203,7 +202,6 @@ gsap
     .to(
     ".falling-sabre",
     {
-
       top: "100%",
     },
     1
