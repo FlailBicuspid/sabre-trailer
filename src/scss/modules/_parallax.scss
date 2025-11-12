@@ -1,5 +1,5 @@
 .section-parallax {
-  border: 5px dashed gray;
+  // border: 5px dashed gray;
   // viewport
   //   height: 100vh;
   div {
@@ -24,7 +24,7 @@
 .parallax-into-paysage {
   //   background-color: red;
   width: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
   overflow: visible;
 }
 
@@ -61,6 +61,7 @@
   height: 54vw;
   position: relative;
   //  z-index: 3;
+  overflow: hidden;
 }
 
 .parallax-into-paysage.screen-h {

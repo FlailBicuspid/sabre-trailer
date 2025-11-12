@@ -147,15 +147,62 @@ top:"-400px",
 // HORIZONTAL SCROLL-----------------------------------
 
 gsap.to(".slider-track", {
+    x: "-87%",
     scrollTrigger: {
-        trigger: ".slider-track",
+        trigger: ".slider-mask",
         start:"top top",
-        end:"+=300%",
+        end:"+=1000%",
         pin: true,
         scrub: true,
-        x:"-75%",
         markers:true,
         // ease:"sine.inOut",
     }
 });
 
+// let sections = gsap.utils.toArray(".screen")
+
+// gsap.to(sections, {
+//     xPercent: -100 * (sections.length - 1),
+//     ease: "none",
+//     scrollTrigger : {
+//         trigger: ".slider-track",
+//         pin: true,
+//         scrub:1,
+//         snap
+//     }
+// })
+
+
+// Falling sabre
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".falling-sabre-section",
+      start: "top top",
+      
+      end: "110% bottom",
+      scrub: 0.3, 
+    //   pin: true,
+      markers: true,
+      ease: "linear", 
+    },
+  })
+  
+  .to(
+    ".falling-sabre",
+    {
+     
+      top: "25%",
+    },
+    0
+  )
+    .to(
+    ".falling-sabre",
+    {
+
+      top: "100%",
+    },
+    1
+  );
+  

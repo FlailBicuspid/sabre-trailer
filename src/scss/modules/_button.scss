@@ -1,0 +1,32 @@
+button.to-shop-section {
+  // position
+  position: fixed;
+  z-index: 3;
+  margin-right: 30px;
+  margin-top: 60px;
+  //   style
+  display: inline-flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 9px;
+  border: none;
+  background: rgba(255, 255, 255, 0.46);
+  backdrop-filter: blur(3.6500000953674316px);
+  //   font
+  font-family: "Novel Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  //   transition
+  transition: color 0.2s ease-in-out, background-image 0.2s 0.5s ease-in-out;
+}
+
+.to-shop-section:hover {
+  background: var(
+    --Environment-gradient,
+    linear-gradient(272deg, #bc63da 0%, #dd533d 96.12%)
+  );
+  color: #fff;
+}

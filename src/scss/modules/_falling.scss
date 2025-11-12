@@ -1,0 +1,21 @@
+.falling-sabre-section {
+  width: 100vw;
+  //   height: 100vh;
+  background-color: green;
+  position: relative;
+  overflow: hidden;
+}
+
+.falling-sabre {
+  z-index: 3;
+  position: fixed;
+  left: 45%;
+  top: -50%; //25%
+  width: 15%;
+  height: auto;
+}
+
+.falling-sabre img {
+  width: 100%;
+  height: auto;
+}
