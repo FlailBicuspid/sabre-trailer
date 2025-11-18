@@ -184,7 +184,7 @@ gsap
       end: "110% bottom",
       scrub: 0.3, 
     //   pin: true,
-      markers: true,
+    //   markers: true,
       ease: "linear", 
     },
     onStart: () => {
