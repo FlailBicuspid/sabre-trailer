@@ -1,5 +1,4 @@
 .slider-mask {
-  //   border: 5px solid red;
   height: 100vh;
   overflow: hidden;
 }
@@ -7,7 +6,6 @@
 .slider-track {
   height: 100%;
   display: inline-flex;
-  //   border: 5px solid blue;
 }
 
 .screen {
@@ -15,7 +13,6 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  // border: 5px solid orange;
 }
 
 .screen-3 {
@@ -25,12 +22,10 @@
 
 .sabre-milk-1 {
   align-items: flex-start;
-  // border: 2px solid coral;
 }
 
 .sabre-milk-2 {
   align-items: flex-end;
-  // border: 2px solid coral;
 }
 
 .slider-family {
@@ -40,23 +35,18 @@
 .screen-1 img {
   width: 80%;
 }
-.screen-2 img {
+.screen-2 img,
+.screen-3 img,
+.screen-4 img,
+.screen-7 img {
   width: 60%;
 }
-.screen-3 img {
-  width: 60%;
-}
-.screen-4 img {
-  width: 60%;
-}
+
 .screen-5 img {
   width: 50%;
 }
 .screen-6 img {
   width: 70%;
-}
-.screen-7 img {
-  width: 60%;
 }
 
 //animation hover

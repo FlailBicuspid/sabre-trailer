@@ -1,14 +1,12 @@
 .shop-section {
   width: 100vw;
   position: relative;
-  //   overflow: hidden;
 }
 
 .shop-product {
   z-index: 1;
   display: flex;
   justify-content: center;
-  //   align-items: center;
   position: relative;
   padding-top: 10%;
 }
@@ -69,8 +67,15 @@
 
 // Font
 
+.shop-product-author p,
+.shop-text-intro,
+.shop-product-info h2,
+.shop-product-info p {
+  font-family: "novel-sans-pro", sans-serif;
+  color: #000;
+}
+
 .shop-product-author p {
-  font-family: "Novel Sans Pro";
   font-size: 16px;
   font-style: normal;
   font-weight: 200;
@@ -87,8 +92,6 @@
 }
 
 .shop-text-intro {
-  color: #000;
-  font-family: "Novel Sans Pro";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -96,8 +99,6 @@
 }
 
 .shop-product-info h2 {
-  color: #000;
-  font-family: "Novel Sans Pro";
   font-size: 20px;
   font-style: normal;
   font-weight: 650;
@@ -105,8 +106,6 @@
 }
 
 .shop-product-info p {
-  color: #000;
-  font-family: "Novel Sans Pro";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;

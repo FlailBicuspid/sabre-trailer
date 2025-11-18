@@ -1,7 +1,5 @@
 .falling-sabre-section {
   width: 100vw;
-  //   height: 100vh;
-  //   background-color: green;
   position: relative;
   overflow: hidden;
 }
@@ -32,10 +30,7 @@
   width: 100%;
 }
 
-.falling-1 {
-  width: 100%;
-}
-
+.falling-1,
 .falling-2 {
   width: 100%;
 }
@@ -44,14 +39,8 @@
   width: 50%;
 }
 
-.falling-6 {
-  width: 90%;
-}
-
-.falling-7 {
-  width: 90%;
-}
-
+.falling-6,
+.falling-7,
 .falling-10 {
   width: 90%;
 }

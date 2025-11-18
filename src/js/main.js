@@ -5,18 +5,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 // // PARALLAX-------------------------------------------
 
-// var tl = gsap.timeline ({
-//     // scrollTrigger: {
-//     //     trigger: ".section-parallax",
-//     //     start: "top top",
-//     //     end:"4000px bottom",
-//     //     scrub: 0.3,
-//     //     // pin: true,
-//     //     markers: true,
-//     // }
-// });
-
-
 gsap.to(
     ".screen-b img",
     {
@@ -111,7 +99,7 @@ gsap.to(
             end:"bottom 80%",
             scrub: 0.3,
             // pin: true,
-            markers: true,
+            // markers: true,
         },
     }
 );
@@ -124,7 +112,7 @@ scrollTrigger: {
     start:"40px top",
     end:"110px top",
     scrub: 1,
-    markers: true,
+    // markers: true,
     id:"lightning right",
 },
 opacity: 0,
@@ -138,7 +126,7 @@ gsap.from(".parallax-thunder-left",{
         start:"40px top",
         end:"110px top",
         scrub: 1,
-        markers: true,
+        // markers: true,
         id:"left",
 },
 opacity: 0,
@@ -161,18 +149,6 @@ gsap.to(".slider-track", {
     }
 });
 
-// let sections = gsap.utils.toArray(".screen")
-
-// gsap.to(sections, {
-//     xPercent: -100 * (sections.length - 1),
-//     ease: "none",
-//     scrollTrigger : {
-//         trigger: ".slider-track",
-//         pin: true,
-//         scrub:1,
-//         snap
-//     }
-// })
 
 
 // Falling sabre

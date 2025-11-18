@@ -1,19 +1,10 @@
 .section-parallax {
-  // border: 5px dashed gray;
-  // viewport
-  //   height: 100vh;
   div {
-    // position: relative;
-    // z-index: 5;
     img {
       width: 100%;
     }
   }
 }
-
-// .parallax-container img {
-//  width: 100%;
-// }
 
 .parallax-into-paysage img {
   width: 100%;
@@ -22,20 +13,15 @@
 }
 
 .parallax-into-paysage {
-  //   background-color: red;
   width: 100%;
-  // border: 2px solid red;
   overflow: visible;
 }
 
 .parallax-into-paysage.screen-a {
   height: 66.6666vw;
-  // opacity: 50%;
 }
 .parallax-into-paysage.screen-b {
-  //  background-color: red;
   height: 16vw;
-  //   z-index: 10;
 }
 
 .parallax-into-paysage.screen-c {
@@ -44,24 +30,18 @@
 
 .parallax-into-paysage.screen-d {
   height: 10vw;
-  //   z-index: 10;
-  //   opacity: 50%;
 }
 
 .parallax-into-paysage.screen-e {
   height: 55vw;
-  //   z-index: 10;
 }
 .parallax-into-paysage.screen-f {
   height: 25vw;
-  //   z-index: 10;
 }
 
 .parallax-into-paysage.screen-g {
   height: 54vw;
   position: relative;
-  //  z-index: 3;
-  // overflow: hidden;
 }
 
 .section-parallax,
@@ -78,7 +58,6 @@
 .parallax-thunder-left {
   width: 56%;
   position: absolute;
-  // z-index: 2;
 }
 
 .parallax-thunder-right {
@@ -89,8 +68,3 @@
   top: 2%;
   left: -6%;
 }
-
-// .parallax-thunder img {
-//     width: 30%;
-//     height: auto;
-// }
