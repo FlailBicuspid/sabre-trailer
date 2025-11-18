@@ -51,14 +51,30 @@
 
 //animation hover
 
-.screen-1:hover .slider-no-hover {
-  display: none;
+.slider-sabre-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.screen-1:hover .slider-hover {
-  display: block;
+.slider-hover-trigger {
+  background-color: aqua;
+  position: absolute;
+  bottom: 39%;
+  width: 3%;
+  height: 13%;
+  opacity: 0;
 }
 
 .slider-hover {
   display: none;
+}
+
+.screen-1 :first-child:hover + div {
+  .slider-hover {
+    display: block;
+  }
+  .slider-no-hover {
+    display: none;
+  }
 }
