@@ -124,7 +124,8 @@ scrollTrigger: {
     start:"40px top",
     end:"110px top",
     scrub: 1,
-    // markers: true,
+    markers: true,
+    id:"lightning right",
 },
 opacity: 0,
 left: "80vw",
@@ -132,12 +133,13 @@ top:"-300px",
 });
 
 gsap.from(".parallax-thunder-left",{
-scrollTrigger: {
-    trigger:".thunders",
-    start:"40px top",
-    end:"110px top",
-    scrub: 1,
-    // markers: true,
+    scrollTrigger: {
+        trigger:".thunders",
+        start:"40px top",
+        end:"110px top",
+        scrub: 1,
+        markers: true,
+        id:"lightning left",
 },
 opacity: 0,
 left: "-80vw",
