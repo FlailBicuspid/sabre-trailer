@@ -33,12 +33,14 @@ a.button {
 }
 
 .button.shop-button {
+  // style
   border-radius: 9px;
   border: 3px solid var(--Button-test-gradient, #c7b3ce);
   background: rgba(255, 255, 255, 0.66);
   backdrop-filter: blur(15.050000190734863px);
   padding: 20px 35px;
   width: 246px;
+  //font
   font-size: 29px;
   font-weight: 500;
 }
